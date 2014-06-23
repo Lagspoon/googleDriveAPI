@@ -7,7 +7,7 @@
 //
 
 #import "GDVC.h"
-
+#import "APIKey.h"
 @interface GDVC ()
 
 
@@ -15,9 +15,11 @@
 
 @implementation GDVC
 
+
+static NSString *const kClientID = APIKeyClientId;
+static NSString *const kClientSecret = APIKeyClientSecret;
 static NSString *const kKeychainItemName = @"Google Drive Quickstart";
-static NSString *const kClientID = @"811369052582-bn16v0ctdr7tra863pl13borav7b1s08.apps.googleusercontent.com";
-static NSString *const kClientSecret = @"Ppb0ofRqCr2RJYL0SmIiMFT6";
+
 @synthesize driveService;
 
 - (void)viewDidLoad

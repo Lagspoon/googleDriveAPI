@@ -10,18 +10,17 @@
 		092D2D5F1955BDD8004661C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D5E1955BDD8004661C2 /* Foundation.framework */; };
 		092D2D611955BDD8004661C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D601955BDD8004661C2 /* CoreGraphics.framework */; };
 		092D2D631955BDD8004661C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D621955BDD8004661C2 /* UIKit.framework */; };
-		092D2D691955BDD8004661C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D671955BDD8004661C2 /* InfoPlist.strings */; };
 		092D2D6B1955BDD8004661C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D6A1955BDD8004661C2 /* main.m */; };
-		092D2D6F1955BDD8004661C2 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D6E1955BDD8004661C2 /* GDAppDelegate.m */; };
-		092D2D7A1955BDD8004661C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D791955BDD8004661C2 /* Images.xcassets */; };
-		092D2D9B1955BF5C004661C2 /* GDGeneric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D991955BF5C004661C2 /* GDGeneric.storyboard */; };
-		092D2DAB1956DD42004661C2 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DA61955C947004661C2 /* libGTLTouchStaticLib.a */; };
 		092D2DAD1956DD51004661C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DAC1956DD51004661C2 /* Security.framework */; };
 		092D2DAF1956DD61004661C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DAE1956DD61004661C2 /* SystemConfiguration.framework */; };
 		092D2DB11956DDAB004661C2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DB01956DDAB004661C2 /* MobileCoreServices.framework */; };
 		092D2DB319570055004661C2 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092D2DB219570055004661C2 /* GTMOAuth2ViewTouch.xib */; };
 		092D2DB6195700C6004661C2 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2DB5195700C6004661C2 /* GTLDrive_Sources.m */; };
 		092D2DB9195701BE004661C2 /* GDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2DB8195701BE004661C2 /* GDVC.m */; };
+		092D2DCD19582BCC004661C2 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2DC419582BCC004661C2 /* GDAppDelegate.m */; };
+		092D2DD019582BCC004661C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092D2DC919582BCC004661C2 /* Images.xcassets */; };
+		092D2DD319582CFC004661C2 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DA61955C947004661C2 /* libGTLTouchStaticLib.a */; };
+		09A59330195830B400B723D6 /* APIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A5932F195830B400B723D6 /* APIKey.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +83,18 @@
 		092D2DB5195700C6004661C2 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLDrive_Sources.m; path = "google-api-objectivec-client-read-only/Source/Services/Drive/Generated/GTLDrive_Sources.m"; sourceTree = SOURCE_ROOT; };
 		092D2DB7195701BE004661C2 /* GDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDVC.h; sourceTree = "<group>"; };
 		092D2DB8195701BE004661C2 /* GDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDVC.m; sourceTree = "<group>"; };
+		092D2DBE19582BCC004661C2 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		092D2DC019582BCC004661C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GDGeneric.storyboard; sourceTree = "<group>"; };
+		092D2DC219582BCC004661C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092D2DC319582BCC004661C2 /* GDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		092D2DC419582BCC004661C2 /* GDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		092D2DC519582BCC004661C2 /* GDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDVC.h; sourceTree = "<group>"; };
+		092D2DC619582BCC004661C2 /* GDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDVC.m; sourceTree = "<group>"; };
+		092D2DC719582BCC004661C2 /* googleDriveAPI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "googleDriveAPI-Info.plist"; sourceTree = "<group>"; };
+		092D2DC819582BCC004661C2 /* googleDriveAPI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "googleDriveAPI-Prefix.pch"; sourceTree = "<group>"; };
+		092D2DC919582BCC004661C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		092D2DCA19582BCC004661C2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09A5932F195830B400B723D6 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = googleDriveAPI/APIKey.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,10 +102,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092D2DD319582CFC004661C2 /* libGTLTouchStaticLib.a in Frameworks */,
 				092D2DB11956DDAB004661C2 /* MobileCoreServices.framework in Frameworks */,
 				092D2DAF1956DD61004661C2 /* SystemConfiguration.framework in Frameworks */,
 				092D2DAD1956DD51004661C2 /* Security.framework in Frameworks */,
-				092D2DAB1956DD42004661C2 /* libGTLTouchStaticLib.a in Frameworks */,
 				092D2D611955BDD8004661C2 /* CoreGraphics.framework in Frameworks */,
 				092D2D631955BDD8004661C2 /* UIKit.framework in Frameworks */,
 				092D2D5F1955BDD8004661C2 /* Foundation.framework in Frameworks */,
@@ -107,6 +118,7 @@
 		092D2D521955BDD8004661C2 = {
 			isa = PBXGroup;
 			children = (
+				09A5932F195830B400B723D6 /* APIKey.h */,
 				092D2D641955BDD8004661C2 /* googleDriveAPI */,
 				092D2D5D1955BDD8004661C2 /* Frameworks */,
 				092D2D5C1955BDD8004661C2 /* Products */,
@@ -145,6 +157,7 @@
 				092D2D991955BF5C004661C2 /* GDGeneric.storyboard */,
 				092D2D791955BDD8004661C2 /* Images.xcassets */,
 				092D2D651955BDD8004661C2 /* Supporting Files */,
+				092D2DBD19582BCC004661C2 /* googleDriveAPI */,
 			);
 			path = googleDriveAPI;
 			sourceTree = "<group>";
@@ -174,7 +187,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		092D2DBD19582BCC004661C2 /* googleDriveAPI */ = {
+			isa = PBXGroup;
+			children = (
+				092D2DBE19582BCC004661C2 /* APIKey.h */,
+				092D2DBF19582BCC004661C2 /* GDGeneric.storyboard */,
+				092D2DC119582BCC004661C2 /* InfoPlist.strings */,
+				092D2DC319582BCC004661C2 /* GDAppDelegate.h */,
+				092D2DC419582BCC004661C2 /* GDAppDelegate.m */,
+				092D2DC519582BCC004661C2 /* GDVC.h */,
+				092D2DC619582BCC004661C2 /* GDVC.m */,
+				092D2DC719582BCC004661C2 /* googleDriveAPI-Info.plist */,
+				092D2DC819582BCC004661C2 /* googleDriveAPI-Prefix.pch */,
+				092D2DC919582BCC004661C2 /* Images.xcassets */,
+				092D2DCA19582BCC004661C2 /* main.m */,
+			);
+			name = googleDriveAPI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		092D2DD519582E6C004661C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A59330195830B400B723D6 /* APIKey.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		092D2D5A1955BDD8004661C2 /* googleDriveAPI */ = {
@@ -184,6 +226,7 @@
 				092D2D571955BDD8004661C2 /* Sources */,
 				092D2D581955BDD8004661C2 /* Frameworks */,
 				092D2D591955BDD8004661C2 /* Resources */,
+				092D2DD519582E6C004661C2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -266,9 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092D2DB319570055004661C2 /* GTMOAuth2ViewTouch.xib in Resources */,
-				092D2D7A1955BDD8004661C2 /* Images.xcassets in Resources */,
-				092D2D9B1955BF5C004661C2 /* GDGeneric.storyboard in Resources */,
-				092D2D691955BDD8004661C2 /* InfoPlist.strings in Resources */,
+				092D2DD019582BCC004661C2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +322,8 @@
 			files = (
 				092D2D6B1955BDD8004661C2 /* main.m in Sources */,
 				092D2DB9195701BE004661C2 /* GDVC.m in Sources */,
+				092D2DCD19582BCC004661C2 /* GDAppDelegate.m in Sources */,
 				092D2DB6195700C6004661C2 /* GTLDrive_Sources.m in Sources */,
-				092D2D6F1955BDD8004661C2 /* GDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +352,22 @@
 				092D2D9A1955BF5C004661C2 /* Base */,
 			);
 			name = GDGeneric.storyboard;
+			sourceTree = "<group>";
+		};
+		092D2DBF19582BCC004661C2 /* GDGeneric.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092D2DC019582BCC004661C2 /* Base */,
+			);
+			name = GDGeneric.storyboard;
+			sourceTree = "<group>";
+		};
+		092D2DC119582BCC004661C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092D2DC219582BCC004661C2 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -443,6 +500,7 @@
 				092D2D921955BDD8004661C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
