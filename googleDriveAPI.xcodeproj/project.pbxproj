@@ -13,24 +13,52 @@
 		092D2D691955BDD8004661C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D671955BDD8004661C2 /* InfoPlist.strings */; };
 		092D2D6B1955BDD8004661C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D6A1955BDD8004661C2 /* main.m */; };
 		092D2D6F1955BDD8004661C2 /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D6E1955BDD8004661C2 /* GDAppDelegate.m */; };
-		092D2D721955BDD8004661C2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D701955BDD8004661C2 /* Main_iPhone.storyboard */; };
-		092D2D751955BDD8004661C2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D731955BDD8004661C2 /* Main_iPad.storyboard */; };
-		092D2D781955BDD8004661C2 /* GDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D771955BDD8004661C2 /* GDViewController.m */; };
 		092D2D7A1955BDD8004661C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D791955BDD8004661C2 /* Images.xcassets */; };
-		092D2D811955BDD8004661C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D801955BDD8004661C2 /* XCTest.framework */; };
-		092D2D821955BDD8004661C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D5E1955BDD8004661C2 /* Foundation.framework */; };
-		092D2D831955BDD8004661C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2D621955BDD8004661C2 /* UIKit.framework */; };
-		092D2D8B1955BDD8004661C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D891955BDD8004661C2 /* InfoPlist.strings */; };
-		092D2D8D1955BDD8004661C2 /* googleDriveAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2D8C1955BDD8004661C2 /* googleDriveAPITests.m */; };
+		092D2D9B1955BF5C004661C2 /* GDGeneric.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092D2D991955BF5C004661C2 /* GDGeneric.storyboard */; };
+		092D2DAB1956DD42004661C2 /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DA61955C947004661C2 /* libGTLTouchStaticLib.a */; };
+		092D2DAD1956DD51004661C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DAC1956DD51004661C2 /* Security.framework */; };
+		092D2DAF1956DD61004661C2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DAE1956DD61004661C2 /* SystemConfiguration.framework */; };
+		092D2DB11956DDAB004661C2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092D2DB01956DDAB004661C2 /* MobileCoreServices.framework */; };
+		092D2DB319570055004661C2 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092D2DB219570055004661C2 /* GTMOAuth2ViewTouch.xib */; };
+		092D2DB6195700C6004661C2 /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2DB5195700C6004661C2 /* GTLDrive_Sources.m */; };
+		092D2DB9195701BE004661C2 /* GDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 092D2DB8195701BE004661C2 /* GDVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		092D2D841955BDD8004661C2 /* PBXContainerItemProxy */ = {
+		092D2DA31955C947004661C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 092D2D531955BDD8004661C2 /* Project object */;
+			containerPortal = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F38F6A60B66E91D00B24B81;
+			remoteInfo = GTLFramework;
+		};
+		092D2DA51955C947004661C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027C11A4CA2F00BEB470;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		092D2DA71955C947004661C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F12027D11A4CA2F00BEB470;
+			remoteInfo = GTLUnitTests;
+		};
+		092D2DA91955C947004661C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1AD9020B71603F00DC0485;
+			remoteInfo = DevelopmentTestTool;
+		};
+		092D2DBA195703B3004661C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 092D2D5A1955BDD8004661C2;
-			remoteInfo = googleDriveAPI;
+			remoteGlobalIDString = 4F1C6E0E1027B3CE00B46459;
+			remoteInfo = GTLTouchStaticLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,16 +73,17 @@
 		092D2D6C1955BDD8004661C2 /* googleDriveAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "googleDriveAPI-Prefix.pch"; sourceTree = "<group>"; };
 		092D2D6D1955BDD8004661C2 /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
 		092D2D6E1955BDD8004661C2 /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
-		092D2D711955BDD8004661C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		092D2D741955BDD8004661C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		092D2D761955BDD8004661C2 /* GDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDViewController.h; sourceTree = "<group>"; };
-		092D2D771955BDD8004661C2 /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
 		092D2D791955BDD8004661C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		092D2D7F1955BDD8004661C2 /* googleDriveAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleDriveAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		092D2D801955BDD8004661C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		092D2D881955BDD8004661C2 /* googleDriveAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googleDriveAPITests-Info.plist"; sourceTree = "<group>"; };
-		092D2D8A1955BDD8004661C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		092D2D8C1955BDD8004661C2 /* googleDriveAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleDriveAPITests.m; sourceTree = "<group>"; };
+		092D2D9A1955BF5C004661C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GDGeneric.storyboard; sourceTree = "<group>"; };
+		092D2D9C1955C947004661C2 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = "google-api-objectivec-client-read-only/Source/GTL.xcodeproj"; sourceTree = "<group>"; };
+		092D2DAC1956DD51004661C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		092D2DAE1956DD61004661C2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		092D2DB01956DDAB004661C2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		092D2DB219570055004661C2 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = "google-api-objectivec-client-read-only/Source/OAuth2/Touch/GTMOAuth2ViewTouch.xib"; sourceTree = SOURCE_ROOT; };
+		092D2DB41957008F004661C2 /* GTLDrive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTLDrive.h; path = "google-api-objectivec-client-read-only/Source/Services/Drive/Generated/GTLDrive.h"; sourceTree = SOURCE_ROOT; };
+		092D2DB5195700C6004661C2 /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLDrive_Sources.m; path = "google-api-objectivec-client-read-only/Source/Services/Drive/Generated/GTLDrive_Sources.m"; sourceTree = SOURCE_ROOT; };
+		092D2DB7195701BE004661C2 /* GDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDVC.h; sourceTree = "<group>"; };
+		092D2DB8195701BE004661C2 /* GDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,19 +91,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092D2DB11956DDAB004661C2 /* MobileCoreServices.framework in Frameworks */,
+				092D2DAF1956DD61004661C2 /* SystemConfiguration.framework in Frameworks */,
+				092D2DAD1956DD51004661C2 /* Security.framework in Frameworks */,
+				092D2DAB1956DD42004661C2 /* libGTLTouchStaticLib.a in Frameworks */,
 				092D2D611955BDD8004661C2 /* CoreGraphics.framework in Frameworks */,
 				092D2D631955BDD8004661C2 /* UIKit.framework in Frameworks */,
 				092D2D5F1955BDD8004661C2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		092D2D7C1955BDD8004661C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				092D2D811955BDD8004661C2 /* XCTest.framework in Frameworks */,
-				092D2D831955BDD8004661C2 /* UIKit.framework in Frameworks */,
-				092D2D821955BDD8004661C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				092D2D641955BDD8004661C2 /* googleDriveAPI */,
-				092D2D861955BDD8004661C2 /* googleDriveAPITests */,
 				092D2D5D1955BDD8004661C2 /* Frameworks */,
 				092D2D5C1955BDD8004661C2 /* Products */,
+				092D2D9C1955C947004661C2 /* GTL.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				092D2D5B1955BDD8004661C2 /* googleDriveAPI.app */,
-				092D2D7F1955BDD8004661C2 /* googleDriveAPITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,10 +125,12 @@
 		092D2D5D1955BDD8004661C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				092D2DB01956DDAB004661C2 /* MobileCoreServices.framework */,
+				092D2DAE1956DD61004661C2 /* SystemConfiguration.framework */,
+				092D2DAC1956DD51004661C2 /* Security.framework */,
 				092D2D5E1955BDD8004661C2 /* Foundation.framework */,
 				092D2D601955BDD8004661C2 /* CoreGraphics.framework */,
 				092D2D621955BDD8004661C2 /* UIKit.framework */,
-				092D2D801955BDD8004661C2 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +138,11 @@
 		092D2D641955BDD8004661C2 /* googleDriveAPI */ = {
 			isa = PBXGroup;
 			children = (
-				092D2D6D1955BDD8004661C2 /* GDAppDelegate.h */,
-				092D2D6E1955BDD8004661C2 /* GDAppDelegate.m */,
-				092D2D701955BDD8004661C2 /* Main_iPhone.storyboard */,
-				092D2D731955BDD8004661C2 /* Main_iPad.storyboard */,
-				092D2D761955BDD8004661C2 /* GDViewController.h */,
-				092D2D771955BDD8004661C2 /* GDViewController.m */,
+				092D2DB41957008F004661C2 /* GTLDrive.h */,
+				092D2DB5195700C6004661C2 /* GTLDrive_Sources.m */,
+				092D2DB7195701BE004661C2 /* GDVC.h */,
+				092D2DB8195701BE004661C2 /* GDVC.m */,
+				092D2D991955BF5C004661C2 /* GDGeneric.storyboard */,
 				092D2D791955BDD8004661C2 /* Images.xcassets */,
 				092D2D651955BDD8004661C2 /* Supporting Files */,
 			);
@@ -129,6 +152,9 @@
 		092D2D651955BDD8004661C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				092D2DB219570055004661C2 /* GTMOAuth2ViewTouch.xib */,
+				092D2D6D1955BDD8004661C2 /* GDAppDelegate.h */,
+				092D2D6E1955BDD8004661C2 /* GDAppDelegate.m */,
 				092D2D661955BDD8004661C2 /* googleDriveAPI-Info.plist */,
 				092D2D671955BDD8004661C2 /* InfoPlist.strings */,
 				092D2D6A1955BDD8004661C2 /* main.m */,
@@ -137,22 +163,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		092D2D861955BDD8004661C2 /* googleDriveAPITests */ = {
+		092D2D9D1955C947004661C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				092D2D8C1955BDD8004661C2 /* googleDriveAPITests.m */,
-				092D2D871955BDD8004661C2 /* Supporting Files */,
+				092D2DA41955C947004661C2 /* GTL.framework */,
+				092D2DA61955C947004661C2 /* libGTLTouchStaticLib.a */,
+				092D2DA81955C947004661C2 /* GTLUnitTests.xctest */,
+				092D2DAA1955C947004661C2 /* DevelopmentTestTool */,
 			);
-			path = googleDriveAPITests;
-			sourceTree = "<group>";
-		};
-		092D2D871955BDD8004661C2 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				092D2D881955BDD8004661C2 /* googleDriveAPITests-Info.plist */,
-				092D2D891955BDD8004661C2 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,29 +188,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				092D2DBB195703B3004661C2 /* PBXTargetDependency */,
 			);
 			name = googleDriveAPI;
 			productName = googleDriveAPI;
 			productReference = 092D2D5B1955BDD8004661C2 /* googleDriveAPI.app */;
 			productType = "com.apple.product-type.application";
-		};
-		092D2D7E1955BDD8004661C2 /* googleDriveAPITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 092D2D931955BDD8004661C2 /* Build configuration list for PBXNativeTarget "googleDriveAPITests" */;
-			buildPhases = (
-				092D2D7B1955BDD8004661C2 /* Sources */,
-				092D2D7C1955BDD8004661C2 /* Frameworks */,
-				092D2D7D1955BDD8004661C2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				092D2D851955BDD8004661C2 /* PBXTargetDependency */,
-			);
-			name = googleDriveAPITests;
-			productName = googleDriveAPITests;
-			productReference = 092D2D7F1955BDD8004661C2 /* googleDriveAPITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,11 +204,6 @@
 				CLASSPREFIX = GD;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = lagspoon;
-				TargetAttributes = {
-					092D2D7E1955BDD8004661C2 = {
-						TestTargetID = 092D2D5A1955BDD8004661C2;
-					};
-				};
 			};
 			buildConfigurationList = 092D2D561955BDD8004661C2 /* Build configuration list for PBXProject "googleDriveAPI" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,31 +216,59 @@
 			mainGroup = 092D2D521955BDD8004661C2;
 			productRefGroup = 092D2D5C1955BDD8004661C2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 092D2D9D1955C947004661C2 /* Products */;
+					ProjectRef = 092D2D9C1955C947004661C2 /* GTL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				092D2D5A1955BDD8004661C2 /* googleDriveAPI */,
-				092D2D7E1955BDD8004661C2 /* googleDriveAPITests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		092D2DA41955C947004661C2 /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 092D2DA31955C947004661C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		092D2DA61955C947004661C2 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = 092D2DA51955C947004661C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		092D2DA81955C947004661C2 /* GTLUnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.xctest;
+			remoteRef = 092D2DA71955C947004661C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		092D2DAA1955C947004661C2 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 092D2DA91955C947004661C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		092D2D591955BDD8004661C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092D2D751955BDD8004661C2 /* Main_iPad.storyboard in Resources */,
+				092D2DB319570055004661C2 /* GTMOAuth2ViewTouch.xib in Resources */,
 				092D2D7A1955BDD8004661C2 /* Images.xcassets in Resources */,
-				092D2D721955BDD8004661C2 /* Main_iPhone.storyboard in Resources */,
+				092D2D9B1955BF5C004661C2 /* GDGeneric.storyboard in Resources */,
 				092D2D691955BDD8004661C2 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		092D2D7D1955BDD8004661C2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				092D2D8B1955BDD8004661C2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,26 +280,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				092D2D6B1955BDD8004661C2 /* main.m in Sources */,
-				092D2D781955BDD8004661C2 /* GDViewController.m in Sources */,
+				092D2DB9195701BE004661C2 /* GDVC.m in Sources */,
+				092D2DB6195700C6004661C2 /* GTLDrive_Sources.m in Sources */,
 				092D2D6F1955BDD8004661C2 /* GDAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		092D2D7B1955BDD8004661C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				092D2D8D1955BDD8004661C2 /* googleDriveAPITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		092D2D851955BDD8004661C2 /* PBXTargetDependency */ = {
+		092D2DBB195703B3004661C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 092D2D5A1955BDD8004661C2 /* googleDriveAPI */;
-			targetProxy = 092D2D841955BDD8004661C2 /* PBXContainerItemProxy */;
+			name = GTLTouchStaticLib;
+			targetProxy = 092D2DBA195703B3004661C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -287,28 +305,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		092D2D701955BDD8004661C2 /* Main_iPhone.storyboard */ = {
+		092D2D991955BF5C004661C2 /* GDGeneric.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				092D2D711955BDD8004661C2 /* Base */,
+				092D2D9A1955BF5C004661C2 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		092D2D731955BDD8004661C2 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				092D2D741955BDD8004661C2 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		092D2D891955BDD8004661C2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				092D2D8A1955BDD8004661C2 /* en */,
-			);
-			name = InfoPlist.strings;
+			name = GDGeneric.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,7 +396,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "googleDriveAPI/googleDriveAPI-Prefix.pch";
 				INFOPLIST_FILE = "googleDriveAPI/googleDriveAPI-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "google-api-objectivec-client-read-only/Source/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,48 +414,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "googleDriveAPI/googleDriveAPI-Prefix.pch";
 				INFOPLIST_FILE = "googleDriveAPI/googleDriveAPI-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "google-api-objectivec-client-read-only/Source/**";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		092D2D941955BDD8004661C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googleDriveAPI.app/googleDriveAPI";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "googleDriveAPI/googleDriveAPI-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "googleDriveAPITests/googleDriveAPITests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		092D2D951955BDD8004661C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googleDriveAPI.app/googleDriveAPI";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "googleDriveAPI/googleDriveAPI-Prefix.pch";
-				INFOPLIST_FILE = "googleDriveAPITests/googleDriveAPITests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -469,14 +441,6 @@
 			buildConfigurations = (
 				092D2D911955BDD8004661C2 /* Debug */,
 				092D2D921955BDD8004661C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		092D2D931955BDD8004661C2 /* Build configuration list for PBXNativeTarget "googleDriveAPITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				092D2D941955BDD8004661C2 /* Debug */,
-				092D2D951955BDD8004661C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
